@@ -8,7 +8,6 @@ module StockModule
     character(len=256) :: ubicacion
     contains
         procedure :: crear
-        !procedure :: mostrar
         procedure :: agregarStock
         procedure :: eliminarStock
 
@@ -46,7 +45,9 @@ module StockModule
         if(resultante >= 0) then
         this%cantidad = this%cantidad - cantidad
         else
-            print *, "No se puede eliminar esa cantidad de equipos, resultado negativo F"
+            call system ("cls")
+            print *, "No se puede eliminar esa cantidad de equipos, resultado negativo"
+            read *,
         end if 
 
     end subroutine eliminarStock

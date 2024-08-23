@@ -1,1 +1,6 @@
                         Nombre                      Cantidad                        Precio                     Ubicacion
+                     Lapiceros                           150                          3.00                       BodegaA
+                       Lapices                            30                          1.50                       BodegaA
+                  Calculadoras                            35                         65.00                       BodegaA
+                   Escritorios                            12                        500.00                       BodegaB
+                        Sillas                            30                        250.00                       BodegaB
